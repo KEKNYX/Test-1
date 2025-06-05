@@ -25,3 +25,8 @@ Test1_lib-0.1.0-py3-none-any.whl (wheel)
 ```
 pip install dist/geometry_lib-0.1.0-py3-none-any.whl
 ```
+
+Использование:
+```
+from geometry import Circle, Triangle, calculate_area
+```
