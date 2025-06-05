@@ -18,8 +18,8 @@ python -m build
 ```
 Это создаст папку dist/ с файлами:
 ```
-geometry_lib-0.1.0.tar.gz (sdist)
-geometry_lib-0.1.0-py3-none-any.whl (wheel)
+Test1_lib-0.1.0.tar.gz (sdist)
+Test1_lib-0.1.0-py3-none-any.whl (wheel)
 ```
 Установить локально:
 ```
