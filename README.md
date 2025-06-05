@@ -8,3 +8,20 @@
 - Вычислить площадь треугольника по трем сторонам.
 - Проверить, является ли треугольник прямоугольным.
 - Поддерживает полиморфизм и простое расширение.
+
+## Установка
+
+В терминале, из корня проекта:
+```
+pip install --upgrade setuptools wheel
+python -m build
+```
+Это создаст папку dist/ с файлами:
+```
+geometry_lib-0.1.0.tar.gz (sdist)
+geometry_lib-0.1.0-py3-none-any.whl (wheel)
+```
+Установить локально:
+```
+pip install dist/geometry_lib-0.1.0-py3-none-any.whl
+```
